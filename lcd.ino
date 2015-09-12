@@ -24,13 +24,14 @@ void setup() {
 }
 
 void loop() {
+  //ボタンが押されたらサイコロを振る
   if (digitalRead(buttonPin) == LOW) {
     lcd.clear();
     
     setDice();
     
     lcd.setCursor(0, 1);
-    lcd.print("=" + String(dice()));
+    lcd.print("=" + String(roll()));
     
     delay(200);
   }
@@ -41,7 +42,7 @@ void setDice() {
   lcd.print(d);
 }
 
-int dice() {
+int roll() {
   int result = 0;
   for (int i = 1; i <= number; i++) {
     result += random(1, kind + 1);
