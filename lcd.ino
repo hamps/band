@@ -1,4 +1,8 @@
+//ダイスロールをします。テストプログラムです。
+
 #include <Wire.h>
+
+//http://ore-kb.net/archives/195のライブラリを使用
 #include <ST7032.h>
 
 ST7032 lcd;
