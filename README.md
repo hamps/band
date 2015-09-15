@@ -1,5 +1,4 @@
 # band
-smart-band like device project
-
-http://ore-kb.net/archives/195
-のライブラリを利用させていただきました。
+物理部無線班(butumu.com)の文化祭展示用製作物。
+Arduinoベースに液晶とか竜頭的なツマミとかタッチセンサーとか加速度センサーとか乗ります。
+ハードのCADファイルもできたら上げます。
